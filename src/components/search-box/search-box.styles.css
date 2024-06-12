@@ -1,0 +1,16 @@
+.search-box {
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  padding: 8px 15px;
+  width: 150px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  border-radius:8px;
+  opacity: 0.8;
+}
+.search-box:focus{
+  opacity:1;
+  transform: translateZ(1);
+  transition: transform 0.3s ease-out;
+}
